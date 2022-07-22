@@ -6,7 +6,7 @@ function Testhook(){
 
     const Control = () =>{
         console.log('add control');
-        Addref.current.focus();
+       let isVal = Addref.current.value;
     }
 
     return(
@@ -15,6 +15,7 @@ function Testhook(){
             <input type="text" placeholder="enter something" ref={Addref} />
             <button onClick={Control} >btn change</button>
             <p>Change something</p>
+            <div> resault : {isVal}</div>
         </>
     )
 }
