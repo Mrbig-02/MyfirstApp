@@ -13,6 +13,7 @@ function Testhook(){
             <h2>Useref hook</h2>
             <input type="text" placeholder="enter something" ref={Addref} />
             <button onClick={Control} >btn change</button>
+            <p>Change something</p>
         </>
     )
 }
