@@ -1,13 +1,17 @@
 
-import React, {useRef} from 'react';
+import React, {useRef, useEffect} from 'react';
 
 function Testhook(){
     const Addref = useRef(null);
 
     const Control = () =>{
-        console.log('add control');
+        //console.log('add control');
        Addref.current.value = "";
     }
+
+    useEffect(() =>{
+        console.log('use effect right here')
+    }, [])
 
     return(
         <>
