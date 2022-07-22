@@ -6,7 +6,7 @@ function Testhook(){
 
     const Control = () =>{
         console.log('add control');
-        Addref.current.value;
+        Addref.current.focus();
     }
 
     return(
