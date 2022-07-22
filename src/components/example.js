@@ -15,7 +15,7 @@ function Testhook(){
             <input type="text" placeholder="enter something" ref={Addref} />
             <button onClick={Control} >btn change</button>
             <p>Change something</p>
-            <div> resault : {isVal}</div>
+            <div> resault :</div>
         </>
     )
 }
