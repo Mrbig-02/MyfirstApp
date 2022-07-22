@@ -5,8 +5,8 @@ function Testhook(){
     const Addref = useRef(null);
 
     const Control = () =>{
-        console.log(Addref.current.value);
-        
+        console.log('add control');
+       Addref.current.value = "";
     }
 
     return(
