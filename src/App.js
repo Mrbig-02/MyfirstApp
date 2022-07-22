@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Testhook from './components/example';
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <Testhook />
     </div>
   );
 }
